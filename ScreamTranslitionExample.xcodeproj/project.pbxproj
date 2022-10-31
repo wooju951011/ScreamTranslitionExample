@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2AE7F1290F642E00102CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7F0290F642E00102CF2 /* AppDelegate.swift */; };
+		2A2AE7F3290F642E00102CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7F2290F642E00102CF2 /* SceneDelegate.swift */; };
+		2A2AE7F5290F642E00102CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7F4290F642E00102CF2 /* ViewController.swift */; };
+		2A2AE7F8290F642E00102CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2AE7F6290F642E00102CF2 /* Main.storyboard */; };
+		2A2AE7FA290F643300102CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2AE7F9290F643300102CF2 /* Assets.xcassets */; };
+		2A2AE7FD290F643300102CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2AE7FB290F643300102CF2 /* LaunchScreen.storyboard */; };
+		2A2AE808290F643400102CF2 /* ScreamTranslitionExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE807290F643400102CF2 /* ScreamTranslitionExampleTests.swift */; };
+		2A2AE812290F643400102CF2 /* ScreamTranslitionExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE811290F643400102CF2 /* ScreamTranslitionExampleUITests.swift */; };
+		2A2AE814290F643400102CF2 /* ScreamTranslitionExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE813290F643400102CF2 /* ScreamTranslitionExampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A2AE804290F643400102CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2AE7E5290F642E00102CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2AE7EC290F642E00102CF2;
+			remoteInfo = ScreamTranslitionExample;
+		};
+		2A2AE80E290F643400102CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2AE7E5290F642E00102CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2AE7EC290F642E00102CF2;
+			remoteInfo = ScreamTranslitionExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A2AE7ED290F642E00102CF2 /* ScreamTranslitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreamTranslitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2AE7F0290F642E00102CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A2AE7F2290F642E00102CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A2AE7F4290F642E00102CF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A2AE7F7290F642E00102CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A2AE7F9290F643300102CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A2AE7FC290F643300102CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A2AE7FE290F643300102CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2AE803290F643400102CF2 /* ScreamTranslitionExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreamTranslitionExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2AE807290F643400102CF2 /* ScreamTranslitionExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamTranslitionExampleTests.swift; sourceTree = "<group>"; };
+		2A2AE80D290F643400102CF2 /* ScreamTranslitionExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreamTranslitionExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2AE811290F643400102CF2 /* ScreamTranslitionExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamTranslitionExampleUITests.swift; sourceTree = "<group>"; };
+		2A2AE813290F643400102CF2 /* ScreamTranslitionExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamTranslitionExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2AE7EA290F642E00102CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2AE800290F643400102CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2AE80A290F643400102CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2AE7E4290F642E00102CF2 = {
+			isa = PBXGroup;
+			children = (
+				2A2AE7EF290F642E00102CF2 /* ScreamTranslitionExample */,
+				2A2AE806290F643400102CF2 /* ScreamTranslitionExampleTests */,
+				2A2AE810290F643400102CF2 /* ScreamTranslitionExampleUITests */,
+				2A2AE7EE290F642E00102CF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A2AE7EE290F642E00102CF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A2AE7ED290F642E00102CF2 /* ScreamTranslitionExample.app */,
+				2A2AE803290F643400102CF2 /* ScreamTranslitionExampleTests.xctest */,
+				2A2AE80D290F643400102CF2 /* ScreamTranslitionExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A2AE7EF290F642E00102CF2 /* ScreamTranslitionExample */ = {
+			isa = PBXGroup;
+			children = (
+				2A2AE7F0290F642E00102CF2 /* AppDelegate.swift */,
+				2A2AE7F2290F642E00102CF2 /* SceneDelegate.swift */,
+				2A2AE7F4290F642E00102CF2 /* ViewController.swift */,
+				2A2AE7F6290F642E00102CF2 /* Main.storyboard */,
+				2A2AE7F9290F643300102CF2 /* Assets.xcassets */,
+				2A2AE7FB290F643300102CF2 /* LaunchScreen.storyboard */,
+				2A2AE7FE290F643300102CF2 /* Info.plist */,
+			);
+			path = ScreamTranslitionExample;
+			sourceTree = "<group>";
+		};
+		2A2AE806290F643400102CF2 /* ScreamTranslitionExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2AE807290F643400102CF2 /* ScreamTranslitionExampleTests.swift */,
+			);
+			path = ScreamTranslitionExampleTests;
+			sourceTree = "<group>";
+		};
+		2A2AE810290F643400102CF2 /* ScreamTranslitionExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2AE811290F643400102CF2 /* ScreamTranslitionExampleUITests.swift */,
+				2A2AE813290F643400102CF2 /* ScreamTranslitionExampleUITestsLaunchTests.swift */,
+			);
+			path = ScreamTranslitionExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2AE7EC290F642E00102CF2 /* ScreamTranslitionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2AE817290F643400102CF2 /* Build configuration list for PBXNativeTarget "ScreamTranslitionExample" */;
+			buildPhases = (
+				2A2AE7E9290F642E00102CF2 /* Sources */,
+				2A2AE7EA290F642E00102CF2 /* Frameworks */,
+				2A2AE7EB290F642E00102CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreamTranslitionExample;
+			productName = ScreamTranslitionExample;
+			productReference = 2A2AE7ED290F642E00102CF2 /* ScreamTranslitionExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A2AE802290F643400102CF2 /* ScreamTranslitionExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2AE81A290F643400102CF2 /* Build configuration list for PBXNativeTarget "ScreamTranslitionExampleTests" */;
+			buildPhases = (
+				2A2AE7FF290F643400102CF2 /* Sources */,
+				2A2AE800290F643400102CF2 /* Frameworks */,
+				2A2AE801290F643400102CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2AE805290F643400102CF2 /* PBXTargetDependency */,
+			);
+			name = ScreamTranslitionExampleTests;
+			productName = ScreamTranslitionExampleTests;
+			productReference = 2A2AE803290F643400102CF2 /* ScreamTranslitionExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A2AE80C290F643400102CF2 /* ScreamTranslitionExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2AE81D290F643400102CF2 /* Build configuration list for PBXNativeTarget "ScreamTranslitionExampleUITests" */;
+			buildPhases = (
+				2A2AE809290F643400102CF2 /* Sources */,
+				2A2AE80A290F643400102CF2 /* Frameworks */,
+				2A2AE80B290F643400102CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2AE80F290F643400102CF2 /* PBXTargetDependency */,
+			);
+			name = ScreamTranslitionExampleUITests;
+			productName = ScreamTranslitionExampleUITests;
+			productReference = 2A2AE80D290F643400102CF2 /* ScreamTranslitionExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A2AE7E5290F642E00102CF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2A2AE7EC290F642E00102CF2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2A2AE802290F643400102CF2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2A2AE7EC290F642E00102CF2;
+					};
+					2A2AE80C290F643400102CF2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2A2AE7EC290F642E00102CF2;
+					};
+				};
+			};
+			buildConfigurationList = 2A2AE7E8290F642E00102CF2 /* Build configuration list for PBXProject "ScreamTranslitionExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A2AE7E4290F642E00102CF2;
+			productRefGroup = 2A2AE7EE290F642E00102CF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2AE7EC290F642E00102CF2 /* ScreamTranslitionExample */,
+				2A2AE802290F643400102CF2 /* ScreamTranslitionExampleTests */,
+				2A2AE80C290F643400102CF2 /* ScreamTranslitionExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2AE7EB290F642E00102CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2AE7FD290F643300102CF2 /* LaunchScreen.storyboard in Resources */,
+				2A2AE7FA290F643300102CF2 /* Assets.xcassets in Resources */,
+				2A2AE7F8290F642E00102CF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2AE801290F643400102CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2AE80B290F643400102CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2AE7E9290F642E00102CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2AE7F5290F642E00102CF2 /* ViewController.swift in Sources */,
+				2A2AE7F1290F642E00102CF2 /* AppDelegate.swift in Sources */,
+				2A2AE7F3290F642E00102CF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2AE7FF290F643400102CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2AE808290F643400102CF2 /* ScreamTranslitionExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2AE809290F643400102CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2AE814290F643400102CF2 /* ScreamTranslitionExampleUITestsLaunchTests.swift in Sources */,
+				2A2AE812290F643400102CF2 /* ScreamTranslitionExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A2AE805290F643400102CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2AE7EC290F642E00102CF2 /* ScreamTranslitionExample */;
+			targetProxy = 2A2AE804290F643400102CF2 /* PBXContainerItemProxy */;
+		};
+		2A2AE80F290F643400102CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2AE7EC290F642E00102CF2 /* ScreamTranslitionExample */;
+			targetProxy = 2A2AE80E290F643400102CF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A2AE7F6290F642E00102CF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2AE7F7290F642E00102CF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A2AE7FB290F643300102CF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2AE7FC290F643300102CF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A2AE815290F643400102CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A2AE816290F643400102CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A2AE818290F643400102CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P94WK3K35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreamTranslitionExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooju.test.ScreamTranslitionExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A2AE819290F643400102CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P94WK3K35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreamTranslitionExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooju.test.ScreamTranslitionExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A2AE81B290F643400102CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P94WK3K35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooju.test.ScreamTranslitionExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreamTranslitionExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreamTranslitionExample";
+			};
+			name = Debug;
+		};
+		2A2AE81C290F643400102CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P94WK3K35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooju.test.ScreamTranslitionExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreamTranslitionExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreamTranslitionExample";
+			};
+			name = Release;
+		};
+		2A2AE81E290F643400102CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P94WK3K35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooju.test.ScreamTranslitionExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreamTranslitionExample;
+			};
+			name = Debug;
+		};
+		2A2AE81F290F643400102CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P94WK3K35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooju.test.ScreamTranslitionExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreamTranslitionExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A2AE7E8290F642E00102CF2 /* Build configuration list for PBXProject "ScreamTranslitionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2AE815290F643400102CF2 /* Debug */,
+				2A2AE816290F643400102CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2AE817290F643400102CF2 /* Build configuration list for PBXNativeTarget "ScreamTranslitionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2AE818290F643400102CF2 /* Debug */,
+				2A2AE819290F643400102CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2AE81A290F643400102CF2 /* Build configuration list for PBXNativeTarget "ScreamTranslitionExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2AE81B290F643400102CF2 /* Debug */,
+				2A2AE81C290F643400102CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2AE81D290F643400102CF2 /* Build configuration list for PBXNativeTarget "ScreamTranslitionExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2AE81E290F643400102CF2 /* Debug */,
+				2A2AE81F290F643400102CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A2AE7E5290F642E00102CF2 /* Project object */;
+}
