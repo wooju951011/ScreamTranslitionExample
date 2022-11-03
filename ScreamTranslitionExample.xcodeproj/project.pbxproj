@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0E74112913880200B63CE2 /* SeguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E74102913880200B63CE2 /* SeguePresentViewController.swift */; };
+		2A0E74132913894900B63CE2 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E74122913894900B63CE2 /* CodePushViewController.swift */; };
+		2A0E741529138B7900B63CE2 /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E741429138B7900B63CE2 /* CodePresentViewController.swift */; };
 		2A2AE7F1290F642E00102CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7F0290F642E00102CF2 /* AppDelegate.swift */; };
 		2A2AE7F3290F642E00102CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7F2290F642E00102CF2 /* SceneDelegate.swift */; };
 		2A2AE7F5290F642E00102CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7F4290F642E00102CF2 /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		2A2AE808290F643400102CF2 /* ScreamTranslitionExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE807290F643400102CF2 /* ScreamTranslitionExampleTests.swift */; };
 		2A2AE812290F643400102CF2 /* ScreamTranslitionExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE811290F643400102CF2 /* ScreamTranslitionExampleUITests.swift */; };
 		2A2AE814290F643400102CF2 /* ScreamTranslitionExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE813290F643400102CF2 /* ScreamTranslitionExampleUITestsLaunchTests.swift */; };
+		2A551543290F65C700A2A43B /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A551542290F65C700A2A43B /* SeguePushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A0E74102913880200B63CE2 /* SeguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePresentViewController.swift; sourceTree = "<group>"; };
+		2A0E74122913894900B63CE2 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		2A0E741429138B7900B63CE2 /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
 		2A2AE7ED290F642E00102CF2 /* ScreamTranslitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreamTranslitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2AE7F0290F642E00102CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A2AE7F2290F642E00102CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		2A2AE80D290F643400102CF2 /* ScreamTranslitionExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreamTranslitionExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2AE811290F643400102CF2 /* ScreamTranslitionExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamTranslitionExampleUITests.swift; sourceTree = "<group>"; };
 		2A2AE813290F643400102CF2 /* ScreamTranslitionExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamTranslitionExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A551542290F65C700A2A43B /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +111,13 @@
 				2A2AE7F2290F642E00102CF2 /* SceneDelegate.swift */,
 				2A2AE7F4290F642E00102CF2 /* ViewController.swift */,
 				2A2AE7F6290F642E00102CF2 /* Main.storyboard */,
+				2A0E741429138B7900B63CE2 /* CodePresentViewController.swift */,
+				2A0E74122913894900B63CE2 /* CodePushViewController.swift */,
 				2A2AE7F9290F643300102CF2 /* Assets.xcassets */,
 				2A2AE7FB290F643300102CF2 /* LaunchScreen.storyboard */,
 				2A2AE7FE290F643300102CF2 /* Info.plist */,
+				2A551542290F65C700A2A43B /* SeguePushViewController.swift */,
+				2A0E74102913880200B63CE2 /* SeguePresentViewController.swift */,
 			);
 			path = ScreamTranslitionExample;
 			sourceTree = "<group>";
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A551543290F65C700A2A43B /* SeguePushViewController.swift in Sources */,
+				2A0E74132913894900B63CE2 /* CodePushViewController.swift in Sources */,
 				2A2AE7F5290F642E00102CF2 /* ViewController.swift in Sources */,
 				2A2AE7F1290F642E00102CF2 /* AppDelegate.swift in Sources */,
+				2A0E741529138B7900B63CE2 /* CodePresentViewController.swift in Sources */,
+				2A0E74112913880200B63CE2 /* SeguePresentViewController.swift in Sources */,
 				2A2AE7F3290F642E00102CF2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
